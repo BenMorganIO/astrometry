@@ -1,3 +1,4 @@
 module Astrometry
-  VERSION = "0.1.0"
+  # @return [String]
+  VERSION = '0.0.1'
 end

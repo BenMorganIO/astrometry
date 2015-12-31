@@ -1,5 +1,6 @@
-require "astrometry/version"
+%w(version image).each do |file|
+  require "astrometry/#{file}"
+end
 
 module Astrometry
-  # Your code goes here...
 end
